@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Virtual Vote</title>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<h1>Welcome To Virtual Vote</h1>
+<h3>Cast Your Vote Here</h3>
+
+	<div class="row">
+		<div class="column">
+		<h4>Office</h4>
+		<br><br>
+		<label>President: </label><br>
+		<label>Vice President: </label><br>
+		<label>Senate: "choose two"</label><br><br>
+		
+		<label>House of</label><br>
+		<label>Representatives: "choose two"</label><br>
+		<label>Governor: </label><br>
+		<label>City Council: "choose two"</label>
+		</div>
+		<div class="column">
+			<h4>Republican</h4>
+			<br><br>
+			<input type="checkbox" name="President/VicePresident">James Wilson<br>
+																  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Debra Thomas<br>
+		    <input type="checkbox" name="Senate1">Sandra Taylor<br>
+		    <input type="checkbox" name="Senate2">William Roland<br>
+		    <input type="checkbox" name="HouseRep1">Betty Shaw<br>
+		    <input type="checkbox" name="HouseRep2">Ira Lewin<br>
+		    <input type="checkbox" name="Governor">Thomas Lindley<br>
+		    <input type="checkbox" name="CityCoun1">Patricia Baylor<br>
+		    <input type="checkbox" name="CityCoun2">Jason Howland
+			
+		</div>
+		<div class="column">
+			<h4>Democrat</h4>
+			<br><br>
+			<input type="checkbox" name="President/VicePresident">Samuel Smithford<br>
+																  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lisa Langford<br>
+		    <input type="checkbox" name="Senate1">Jonathan Collingwood<br>
+		    <input type="checkbox" name="Senate2">Pam Tyler<br>
+		    <input type="checkbox" name="HouseRep1">David Melow<br>
+		    <input type="checkbox" name="HouseRep2">Jose Hernandez<br>
+		    <input type="checkbox" name="Governor">Robert Williams<br>
+		    <input type="checkbox" name="CityCoun1">Karen Delinton<br>
+		    <input type="checkbox" name="CityCoun2">Frank Race
+		</div>
+		<div class="column">
+			<h4>Write-In</h4>
+			<br><br>
+			<input type="text" name="President"><br>
+			<input type="text" name="VicePresident"><br>
+			<input type="text" name="Senate1"><br>
+			<input type="text" name="Senate2"><br>
+			<input type="text" name="HouseRep1"><br>
+			<input type="text" name="HouseRep2"><br>
+			<input type="text" name="Governor"><br>
+			<input type="text" name="CityCoun1"><br>
+			<input type="text" name="CityCoun2">
+		</div>
+			
+	</div>
+	
+		<div class="text-center">
+			<button id="submitButton" type="submit">Submit</button>
+			<button id="clearButton" type="reset">Clear</button>
+		</div>
+		
+	
+			
+		
+   </div>
+	
+<script src="script.js"></script>	
+</body>
+</html>
