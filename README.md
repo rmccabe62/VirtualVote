@@ -1,2 +1,2 @@
 # VirtualVote
-online voting portal built with Java
+online voting portal built with Java and SpringBoot
